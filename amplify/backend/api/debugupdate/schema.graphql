@@ -1,0 +1,8 @@
+type BuyerZ @model @auth(rules: [{ allow: owner }])
+{
+  id: ID!
+  remarks: String
+  name: String
+}
+
+
